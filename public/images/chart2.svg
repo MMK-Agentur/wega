@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="661.844" height="659.111" viewBox="0 0 661.844 659.111">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="circle" d="M265.5,286.884C118.868,286.884,0,168.937,0,23.442S118.868-240,265.5-240,531-122.053,531,23.442,412.132,286.884,265.5,286.884Zm0-53.564c75.573,0,205.347-55.906,205.554-206.646S346.711-187.443,265.5-187.443,58.007-140.052,58.007,23.442,189.927,233.32,265.5,233.32Z" transform="translate(0 240)" fill="#e0e0e0" stroke="#b5a979" stroke-linejoin="round" stroke-width="1" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(0 155.249) rotate(-17)" clip-path="url(#clip-path)">
+    <path id="absolute-return" d="M-522,3147.744l183.858-253.768s183.937,296.3,183.937,299.68-65.854,138.574-65.854,138.574L-355.785,3503.8Z" transform="translate(785.567 -2862.2)" fill="#4d4c4c" opacity="0.552"/>
+    <path id="aktien" d="M-459.978,3040.121-292,3413.347l-192.947-5.677-253.674-43.134,10.044-119.865Z" transform="translate(717.779 -2783.294)" fill="#685d5b"/>
+    <path id="private-equity" d="M-415.653,3087.551l-281.266,213.083-58.793-292.173,54.284,14.023Z" transform="translate(679.711 -2832.478)" fill="#685d5b" opacity="0.692"/>
+    <path id="real-estate" d="M-427.279,3148.3l-352.741-87.792,250.04-213.668Z" transform="translate(689.178 -2884.401)" fill="#a4a4a4" opacity="0.682"/>
+    <path id="sonstige" d="M-501.255,3191.034-625.989,2812.7H-451.64l-49.615,105.714Z" transform="translate(763.614 -2913.231)" fill="#b5a979"/>
+    <path id="fixed-income" d="M-519.352,3168.875l-8.581-387.144,429.388,349.026Z" transform="translate(782.852 -2908.693)" fill="#2c0404"/>
+  </g>
+</svg>

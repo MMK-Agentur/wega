@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="294.531" height="294.853" viewBox="0 0 294.531 294.853">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="circle" d="M105.623,209.608C47.289,209.608,0,162.686,0,104.8S47.289,0,105.623,0,211.245,46.922,211.245,104.8,163.957,209.608,105.623,209.608Zm0-21.309c30.065,0,81.692-22.241,81.775-82.209S137.93,20.909,105.623,20.909,23.076,39.762,23.076,104.8,75.558,188.3,105.623,188.3Z" transform="translate(0 0)" fill="none" stroke="#ff3737" stroke-linejoin="round" stroke-width="1" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g id="Chart-_Asset_Allocation" data-name="Chart- Asset Allocation" transform="translate(-185.462 14.214)">
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(185.462 154.494) rotate(-53)" clip-path="url(#clip-path)">
+      <path id="aktien" d="M110.143,0,254.966,67.532,137.6,108.977,0,121.726l2.024-57.54Z" transform="translate(121.534 213.1) rotate(-98)" fill="#3e3e3e"/>
+      <path id="private-equity" d="M195.1,0,322.726,160.383,0,56.5,54.48,3.152Z" transform="translate(-90.049 101.475)" fill="#bbb"/>
+      <path id="real-estate" d="M156.848,155.458,0,157.354,155.484,0Z" transform="translate(-52.658 -50.472)" fill="#616161"/>
+      <path id="sonstige" d="M2.177,163.756,0,0,40.955,5.8,51.226,3.324Z" transform="translate(102.105 -52.94)" fill="#9f9f9f"/>
+      <path id="fixed-income" d="M0,0,166.761,113.822Z" transform="translate(101.413 -50.508)" fill="#c34553"/>
+    </g>
+  </g>
+</svg>

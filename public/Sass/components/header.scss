@@ -1,0 +1,50 @@
+.bg-header{
+    background-image: linear-gradient(0deg, rgba(20, 11, 16, 0.5), rgba(202, 192, 203, 0.5)),url("../../img-media/header_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    @media screen and (max-width:575.98px){
+        width: 100%;
+        padding-left: 0px;
+    }
+    @media screen and (min-width:576px)and(max-width:767.99px){
+        width: 80%;
+    }
+    @media screen and (min-width:768px)and(max-width:992px){
+        width: 80%;
+    }
+    @media screen and (min-width:991.99px)and(max-width:1200px){
+        width: 80%;
+    }
+    
+    .header-text{
+        width: 100%;
+        color: white;
+        font-family:'Panton-Light';
+        text-transform: uppercase;
+        font-size: 70px;
+        line-height: 103px;
+        letter-spacing: 8px;
+        @media screen and (max-width:575.98px){
+            font-size: 42px;
+            letter-spacing: 3px;
+            line-height: 61px;
+        }
+        @media screen and (min-width:576px)and(max-width:768px){
+            letter-spacing: 5px;
+            line-height: 80px;
+        }
+    }
+}
+
+

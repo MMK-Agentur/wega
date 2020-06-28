@@ -1,0 +1,431 @@
+.PantonIcons-ALight {
+  font-family: PantonIcons-ALight; }
+
+.PantonIcons-BRegular {
+  font-family: PantonIcons-BRegular; }
+
+.PantonIcons-AFillLight {
+  font-family: PantonIcons-AFillLight; }
+
+.PantonIcons-DFillRegular {
+  font-family: PantonIcons-DFillRegular; }
+
+.PantonIcons-CRegular {
+  font-family: PantonIcons-CRegular; }
+
+.PantonIcons-CFillRegular {
+  font-family: PantonIcons-CFillRegular; }
+
+.PantonIcons-BLight {
+  font-family: PantonIcons-BLight; }
+
+.PantonIcons-CLight {
+  font-family: PantonIcons-CLight; }
+
+.PantonIcons-BFillRegular {
+  font-family: PantonIcons-BFillRegular; }
+
+.PantonIcons-ARegular {
+  font-family: PantonIcons-ARegular; }
+
+.PantonIcons-DFillLight {
+  font-family: PantonIcons-DFillLight; }
+
+.PantonIcons-CFillLight {
+  font-family: PantonIcons-CFillLight; }
+
+.PantonIcons-AFillRegular {
+  font-family: PantonIcons-AFillRegular; }
+
+.PantonIcons-DRegular {
+  font-family: PantonIcons-DRegular; }
+
+.PantonIcons-BFillLight {
+  font-family: PantonIcons-BFillLight; }
+
+.PantonIcons-DLight {
+  font-family: PantonIcons-DLight; }
+
+.PantonNarrow-SemiBold {
+  font-family: PantonNarrow-SemiBold; }
+
+.Panton-Fat {
+  font-family: Panton-Fat; }
+
+.Panton-Bold {
+  font-family: Panton-Bold; }
+
+.Panton-Thin {
+  font-family: Panton-Thin; }
+
+.Panton-ExtraBold {
+  font-family: Panton-ExtraBold; }
+
+.Panton-Black {
+  font-family: Panton-Black; }
+
+.PantonNarrow-BlackItalic {
+  font-family: PantonNarrow-BlackItalic; }
+
+.Panton-ExtraBoldItalic {
+  font-family: Panton-ExtraBoldItalic; }
+
+.PantonNarrow-Heavy {
+  font-family: PantonNarrow-Heavy; }
+
+.Panton-SemiBoldItalic {
+  font-family: Panton-SemiBoldItalic; }
+
+.PantonNarrow-ThinItalic {
+  font-family: PantonNarrow-ThinItalic; }
+
+.PantonNarrow-ExtraLight {
+  font-family: PantonNarrow-ExtraLight; }
+
+.PantonNarrow-Thin {
+  font-family: PantonNarrow-Thin; }
+
+.PantonNarrow-Light {
+  font-family: PantonNarrow-Light; }
+
+.PantonNarrow-LightItalic {
+  font-family: PantonNarrow-LightItalic; }
+
+.PantonNarrow-HeavyItalic {
+  font-family: PantonNarrow-HeavyItalic; }
+
+.PantonNarrow-BoldItalic {
+  font-family: PantonNarrow-BoldItalic; }
+
+.Panton-ThinItalic {
+  font-family: Panton-ThinItalic; }
+
+.Panton-ExtraLight {
+  font-family: Panton-ExtraLight; }
+
+.PantonNarrow-Bold {
+  font-family: PantonNarrow-Bold; }
+
+.Panton-BoldItalic {
+  font-family: Panton-BoldItalic; }
+
+.PantonNarrow-ExtraLightItalic {
+  font-family: PantonNarrow-ExtraLightItalic; }
+
+.PantonNarrow-RegularItalic {
+  font-family: PantonNarrow-RegularItalic; }
+
+.PantonNarrow-ExtraBoldItalic {
+  font-family: PantonNarrow-ExtraBoldItalic; }
+
+.Panton-SemiBold {
+  font-family: Panton-SemiBold; }
+
+.Panton-ExtraLightItalic {
+  font-family: Panton-ExtraLightItalic; }
+
+.Panton-Heavy {
+  font-family: Panton-Heavy; }
+
+.Panton-HeavyItalic {
+  font-family: Panton-HeavyItalic; }
+
+.Panton-LightItalic {
+  font-family: Panton-LightItalic; }
+
+.Panton-FatItalic {
+  font-family: Panton-FatItalic; }
+
+.PantonNarrow-Black {
+  font-family: PantonNarrow-Black; }
+
+.Panton-Light {
+  font-family: Panton-Light; }
+
+.Panton-BlackItalic {
+  font-family: Panton-BlackItalic; }
+
+.PantonNarrow-ExtraBold {
+  font-family: PantonNarrow-ExtraBold; }
+
+.Panton-RegularItalic {
+  font-family: Panton-RegularItalic; }
+
+.PantonNarrow-SemiBoldItalic {
+  font-family: PantonNarrow-SemiBoldItalic; }
+
+.PantonNarrow-Regular {
+  font-family: PantonNarrow-Regular; }
+
+.Panton-Regular {
+  font-family: Panton-Regular; }
+
+body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  padding: 0;
+  height: 100%;
+  font-family: 'Panton-Regular'; }
+
+.page-container {
+  max-width: 100%;
+  min-height: 100vh;
+  height: auto;
+  flex: 1;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 50px 45px; }
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .title-container .label-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #685D5B; }
+  .title-container .title {
+    font-family: 'Panton-Bold';
+    text-transform: inherit;
+    font-size: 31px;
+    color: #685D5B; }
+
+.title-container--light {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .title-container--light .label-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    font-family: 'Panton-Light'; }
+  .title-container--light .title {
+    text-transform: uppercase;
+    font-size: 31px;
+    color: white; }
+
+.bg-lighter {
+  background-color: #fff;
+  background-size: cover; }
+
+.bg-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+
+.bg-darkest {
+  background-color: #22201F;
+  background-size: cover; }
+
+.content-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #685D5B;
+  margin-bottom: 65px; }
+  @media screen and (max-width: 575.98px) {
+    .content-block {
+      flex-wrap: wrap; } }
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .content-block {
+      flex-wrap: wrap; } }
+
+.content-block--2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 66%;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: 0px;
+  font-size: 16px;
+  color: white; }
+  @media screen and (max-width: 575.98px) {
+    .content-block--2 {
+      width: 100%;
+      flex-wrap: wrap;
+      margin-left: 0px;
+      margin-top: 0px;
+      font-size: 10px;
+      margin-bottom: 20px; } }
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .content-block--2 {
+      width: 100%;
+      flex-wrap: wrap;
+      margin-left: 0px; } }
+
+.content-block--3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  font-size: 16px;
+  color: white;
+  font-family: 'Panton-Light';
+  margin-bottom: 65px; }
+  @media screen and (max-width: 575.98px) {
+    .content-block--3 {
+      font-size: 14px; } }
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .content-block--3 {
+      width: 100%; } }
+
+.text-block--3 {
+  width: 80%;
+  color: white;
+  font-size: 16px;
+  font-family: 'Panton-Light';
+  padding-left: 18px; }
+
+.content-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto; }
+
+.list-team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px; }
+  .list-team .container-team {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px; }
+    .list-team .container-team .avatar {
+      width: 200px;
+      height: auto; }
+    .list-team .container-team .avatar-info {
+      font-size: 16px;
+      color: white;
+      font-family: 'Panton-Regular';
+      margin-top: 20px; }
+      .list-team .container-team .avatar-info h6 {
+        font-family: 'Panton-Bold'; }
+
+.label-title {
+  font-family: 'Panton-Bold';
+  text-transform: inherit; }
+
+.text--darkest {
+  color: #685D5B;
+  font-size: inherit;
+  font-family: inherit; }
+
+.team-bg {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-height: 500px;
+  min-height: 300px; }
+
+#Team {
+  display: block; }
+  @media screen and (max-width: 575.98px) {
+    #Team {
+      display: none; } }
+  @media screen and (min-width: 576px) and (max-width: 767.99px) {
+    #Team {
+      display: none; } }
+  @media screen and (min-width: 768px) {
+    #Team {
+      display: block; } }
+
+#Team2 {
+  display: block; }
+  @media screen and (max-width: 575.98px) {
+    #Team2 {
+      display: block; } }
+  @media screen and (min-width: 576px) and (max-width: 767.99px) {
+    #Team2 {
+      display: block; } }
+  @media screen and (min-width: 768px) {
+    #Team2 {
+      display: none; } }
+
+.contact-info {
+  color: white;
+  font-family: 'Panton-Regular';
+  font-size: 16px; }
+  .contact-info h6 {
+    font-family: 'Panton-Bold'; }
+
+.form-contact {
+  background-color: transparent;
+  border-radius: 0px; }
+
+.btn-lightest {
+  color: #685D5B;
+  background-color: white;
+  border-color: white;
+  font-family: 'Panton-Bold';
+  border-radius: 0px; }
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'Panton-Light';
+  justify-content: space-between; }
+  .footer-container .footer-copyrights {
+    flex-direction: column;
+    font-family: 'Panton-Light'; }
+    .footer-container .footer-copyrights p {
+      font-family: 'Panton-Light';
+      color: white; }
+    .footer-container .footer-copyrights .footer-img {
+      margin-top: 66px;
+      width: 40px; }
+  .footer-container .footer-nav {
+    display: flex;
+    flex-direction: row; }
+    .footer-container .footer-nav .vr {
+      height: auto;
+      border-left: 1px solid white; }
+      @media screen and (max-width: 575.98px) {
+        .footer-container .footer-nav .vr {
+          display: none; } }
+      @media screen and (min-width: 576px) and (max-width: 767.99px) {
+        .footer-container .footer-nav .vr {
+          display: none; } }
+    .footer-container .footer-nav .link-list {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column; }
+      .footer-container .footer-nav .link-list .list-item .link-footer {
+        font-family: 'Panton-Light';
+        color: white;
+        padding: 10px 20px; }
+  .footer-container .footer-links {
+    display: flex;
+    flex-direction: row; }
+    .footer-container .footer-links .vr {
+      height: auto;
+      border-left: 1px solid white; }
+      @media screen and (max-width: 575.98px) {
+        .footer-container .footer-links .vr {
+          display: none; } }
+      @media screen and (min-width: 576px) and (max-width: 767.99px) {
+        .footer-container .footer-links .vr {
+          display: none; } }
+    .footer-container .footer-links .link-list {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column; }
+      .footer-container .footer-links .link-list .list-item .link-footer {
+        font-family: 'Panton-Light';
+        color: white;
+        padding: 10px 20px; }
+
+/*# sourceMappingURL=maps/base.css.map */

@@ -1,0 +1,438 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3917394, 2020-06-22T17:00:17-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: PantonIcons-ALight by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-a-light/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonIcons-BRegular by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-b-regular/
+ * 
+ * Webfont: PantonIcons-AFillLight by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-a-fill-light/
+ * 
+ * Webfont: PantonIcons-DFillRegular by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-d-fill-regular/
+ * 
+ * Webfont: PantonIcons-CRegular by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-c-regular/
+ * 
+ * Webfont: PantonIcons-CFillRegular by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-c-fill-regular/
+ * 
+ * Webfont: PantonIcons-BLight by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-b-light/
+ * 
+ * Webfont: PantonIcons-CLight by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-c-light/
+ * 
+ * Webfont: PantonIcons-BFillRegular by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-b-fill-regular/
+ * 
+ * Webfont: PantonIcons-ARegular by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-a-regular/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonIcons-DFillLight by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-d-fill-light/
+ * 
+ * Webfont: PantonIcons-CFillLight by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-c-fill-ight/
+ * 
+ * Webfont: PantonIcons-AFillRegular by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-a-fill-regular/
+ * 
+ * Webfont: PantonIcons-DRegular by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-d-regular/
+ * 
+ * Webfont: PantonIcons-BFillLight by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-b-fill-light/
+ * 
+ * Webfont: PantonIcons-DLight by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/icons-d-light/
+ * 
+ * Webfont: PantonNarrow-SemiBold by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-semi-bold/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-Fat by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/fat/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-Bold by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/bold/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-Thin by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/thin/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-ExtraBold by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/extra-bold/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-Black by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/black/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-BlackItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-black-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-ExtraBoldItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/extra-bold-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-Heavy by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-heavy/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-SemiBoldItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/semi-bold-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-ThinItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-thin-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-ExtraLight by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-extra-light/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-Thin by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-thin/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-Light by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-light/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-LightItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-light-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-HeavyItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-heavy-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-BoldItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-bold-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-ThinItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/thin-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-ExtraLight by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/extra-light/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-Bold by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-bold/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-BoldItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/bold-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-ExtraLightItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-extra-light-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-RegularItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-regular-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-ExtraBoldItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-extra-bold-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-SemiBold by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/semi-bold/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-ExtraLightItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/extra-light-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-Heavy by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/heavy/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-HeavyItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/heavy-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-LightItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/light-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-FatItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/fat-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-Black by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-black/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-Light by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/light/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-BlackItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/black-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-ExtraBold by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-extra-bold/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-RegularItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/regular-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-SemiBoldItalic by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-semi-bold-italic/
+ * Copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: PantonNarrow-Regular by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/narrow-regular/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * Webfont: Panton-Regular by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/panton/regular/
+ * Copyright: Copyright (c) 2018 by Fontfabric LLC. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3bc652");
+  
+@font-face {
+  font-family: 'PantonIcons-AFillLight';
+  src: url('webFonts/PantonIcons-AFillLight/font.woff2') format('woff2'), url('webFonts/PantonIcons-AFillLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-DFillRegular';
+  src: url('webFonts/PantonIcons-DFillRegular/font.woff2') format('woff2'), url('webFonts/PantonIcons-DFillRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-BRegular';
+  src: url('webFonts/PantonIcons-BRegular/font.woff2') format('woff2'), url('webFonts/PantonIcons-BRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-Regular';
+  src: url('webFonts/PantonNarrow-Regular/font.woff2') format('woff2'), url('webFonts/PantonNarrow-Regular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-ALight';
+  src: url('webFonts/PantonIcons-ALight/font.woff2') format('woff2'), url('webFonts/PantonIcons-ALight/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-CRegular';
+  src: url('webFonts/PantonIcons-CRegular/font.woff2') format('woff2'), url('webFonts/PantonIcons-CRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-Regular';
+  src: url('webFonts/Panton-Regular/font.woff2') format('woff2'), url('webFonts/Panton-Regular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-SemiBoldItalic';
+  src: url('webFonts/PantonNarrow-SemiBoldItalic/font.woff2') format('woff2'), url('webFonts/PantonNarrow-SemiBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-RegularItalic';
+  src: url('webFonts/Panton-RegularItalic/font.woff2') format('woff2'), url('webFonts/Panton-RegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-BlackItalic';
+  src: url('webFonts/Panton-BlackItalic/font.woff2') format('woff2'), url('webFonts/Panton-BlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-ExtraBold';
+  src: url('webFonts/PantonNarrow-ExtraBold/font.woff2') format('woff2'), url('webFonts/PantonNarrow-ExtraBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-Black';
+  src: url('webFonts/PantonNarrow-Black/font.woff2') format('woff2'), url('webFonts/PantonNarrow-Black/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-Light';
+  src: url('webFonts/Panton-Light/font.woff2') format('woff2'), url('webFonts/Panton-Light/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-FatItalic';
+  src: url('webFonts/Panton-FatItalic/font.woff2') format('woff2'), url('webFonts/Panton-FatItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-LightItalic';
+  src: url('webFonts/Panton-LightItalic/font.woff2') format('woff2'), url('webFonts/Panton-LightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-HeavyItalic';
+  src: url('webFonts/Panton-HeavyItalic/font.woff2') format('woff2'), url('webFonts/Panton-HeavyItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-Heavy';
+  src: url('webFonts/Panton-Heavy/font.woff2') format('woff2'), url('webFonts/Panton-Heavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-SemiBold';
+  src: url('webFonts/Panton-SemiBold/font.woff2') format('woff2'), url('webFonts/Panton-SemiBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-RegularItalic';
+  src: url('webFonts/PantonNarrow-RegularItalic/font.woff2') format('woff2'), url('webFonts/PantonNarrow-RegularItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-ExtraBoldItalic';
+  src: url('webFonts/PantonNarrow-ExtraBoldItalic/font.woff2') format('woff2'), url('webFonts/PantonNarrow-ExtraBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-ExtraLightItalic';
+  src: url('webFonts/Panton-ExtraLightItalic/font.woff2') format('woff2'), url('webFonts/Panton-ExtraLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-ExtraLightItalic';
+  src: url('webFonts/PantonNarrow-ExtraLightItalic/font.woff2') format('woff2'), url('webFonts/PantonNarrow-ExtraLightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-BoldItalic';
+  src: url('webFonts/Panton-BoldItalic/font.woff2') format('woff2'), url('webFonts/Panton-BoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-Bold';
+  src: url('webFonts/PantonNarrow-Bold/font.woff2') format('woff2'), url('webFonts/PantonNarrow-Bold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-ExtraLight';
+  src: url('webFonts/Panton-ExtraLight/font.woff2') format('woff2'), url('webFonts/Panton-ExtraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-ThinItalic';
+  src: url('webFonts/Panton-ThinItalic/font.woff2') format('woff2'), url('webFonts/Panton-ThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-BoldItalic';
+  src: url('webFonts/PantonNarrow-BoldItalic/font.woff2') format('woff2'), url('webFonts/PantonNarrow-BoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-LightItalic';
+  src: url('webFonts/PantonNarrow-LightItalic/font.woff2') format('woff2'), url('webFonts/PantonNarrow-LightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-Thin';
+  src: url('webFonts/PantonNarrow-Thin/font.woff2') format('woff2'), url('webFonts/PantonNarrow-Thin/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-Light';
+  src: url('webFonts/PantonNarrow-Light/font.woff2') format('woff2'), url('webFonts/PantonNarrow-Light/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-ExtraLight';
+  src: url('webFonts/PantonNarrow-ExtraLight/font.woff2') format('woff2'), url('webFonts/PantonNarrow-ExtraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-ThinItalic';
+  src: url('webFonts/PantonNarrow-ThinItalic/font.woff2') format('woff2'), url('webFonts/PantonNarrow-ThinItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-Heavy';
+  src: url('webFonts/PantonNarrow-Heavy/font.woff2') format('woff2'), url('webFonts/PantonNarrow-Heavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-SemiBoldItalic';
+  src: url('webFonts/Panton-SemiBoldItalic/font.woff2') format('woff2'), url('webFonts/Panton-SemiBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-ExtraBoldItalic';
+  src: url('webFonts/Panton-ExtraBoldItalic/font.woff2') format('woff2'), url('webFonts/Panton-ExtraBoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-Black';
+  src: url('webFonts/Panton-Black/font.woff2') format('woff2'), url('webFonts/Panton-Black/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-Thin';
+  src: url('webFonts/Panton-Thin/font.woff2') format('woff2'), url('webFonts/Panton-Thin/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-BlackItalic';
+  src: url('webFonts/PantonNarrow-BlackItalic/font.woff2') format('woff2'), url('webFonts/PantonNarrow-BlackItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-ExtraBold';
+  src: url('webFonts/Panton-ExtraBold/font.woff2') format('woff2'), url('webFonts/Panton-ExtraBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-SemiBold';
+  src: url('webFonts/PantonNarrow-SemiBold/font.woff2') format('woff2'), url('webFonts/PantonNarrow-SemiBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-DLight';
+  src: url('webFonts/PantonIcons-DLight/font.woff2') format('woff2'), url('webFonts/PantonIcons-DLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-Bold';
+  src: url('webFonts/Panton-Bold/font.woff2') format('woff2'), url('webFonts/Panton-Bold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-BFillLight';
+  src: url('webFonts/PantonIcons-BFillLight/font.woff2') format('woff2'), url('webFonts/PantonIcons-BFillLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-DRegular';
+  src: url('webFonts/PantonIcons-DRegular/font.woff2') format('woff2'), url('webFonts/PantonIcons-DRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-AFillRegular';
+  src: url('webFonts/PantonIcons-AFillRegular/font.woff2') format('woff2'), url('webFonts/PantonIcons-AFillRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Panton-Fat';
+  src: url('webFonts/Panton-Fat/font.woff2') format('woff2'), url('webFonts/Panton-Fat/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonNarrow-HeavyItalic';
+  src: url('webFonts/PantonNarrow-HeavyItalic/font.woff2') format('woff2'), url('webFonts/PantonNarrow-HeavyItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-DFillLight';
+  src: url('webFonts/PantonIcons-DFillLight/font.woff2') format('woff2'), url('webFonts/PantonIcons-DFillLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-CFillLight';
+  src: url('webFonts/PantonIcons-CFillLight/font.woff2') format('woff2'), url('webFonts/PantonIcons-CFillLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-ARegular';
+  src: url('webFonts/PantonIcons-ARegular/font.woff2') format('woff2'), url('webFonts/PantonIcons-ARegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-CLight';
+  src: url('webFonts/PantonIcons-CLight/font.woff2') format('woff2'), url('webFonts/PantonIcons-CLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-BFillRegular';
+  src: url('webFonts/PantonIcons-BFillRegular/font.woff2') format('woff2'), url('webFonts/PantonIcons-BFillRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-BLight';
+  src: url('webFonts/PantonIcons-BLight/font.woff2') format('woff2'), url('webFonts/PantonIcons-BLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'PantonIcons-CFillRegular';
+  src: url('webFonts/PantonIcons-CFillRegular/font.woff2') format('woff2'), url('webFonts/PantonIcons-CFillRegular/font.woff') format('woff');
+}
+

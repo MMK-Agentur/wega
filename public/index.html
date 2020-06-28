@@ -1,17 +1,693 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="de">
+
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Wega">
+    <meta name="author" content="Wega">
+    <meta name="keyword" content="">
+    <title>Wega Site</title>
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>Wega site</title>
+
+    <!-- Bootstrap core CSS -->
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./MyFontsWebfontsKit/MyFontsWebfontsKit.css">
+    <link href="../Sass/theme.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
+</head>
+
+<body>
+    <header class="bg-section" style="background-image:url('./images/background-wega.jpg')">
+        <div class="page-container">
+            <div class="navigation">
+                <nav class="navbar-wega">
+                    <div class="company-logo">
+                        <li class="nav-item-cia">
+                            <a class="nav-link active" href="#">Wega Invest</a>
+                        </li>
+                        <a href="#"><img class="icon-nav" src="./images/Logo_lighter.svg"></a>
+                    </div>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#About">Über uns</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Strategie">Strategie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Kriterien">Kriterien</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Kontakt">Kontakt</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav-mobile">
+                    <a href="#" class="mobile-company">
+                        <img class="mobile-icon" src="./images/SVG/logo-white.svg" alt=" Wega Invest logo">
+                    </a>
+                    <button class="menu-mobile" type="button" data-toggle="modal" data-target="#myModal">
+                        <img class="" src="./images/burger-menu.svg">
+                    </button>
+                </div>
+                <div class="modal modal-top animate__animated animate__fadeInLeftBig" id="myModal">
+                    <div class="modal-dialog modal--full-height">
+                        <div class="modal-content">
+
+
+                            <div class="modal-header">
+                                <a href="#" class="mobile-company">
+                                    <img class="mobile-icon" src="./images/Logo_lighter.svg" alt=" Wega Invest logo">
+                                    <p class="text-icon">Wega Invest</p>
+                                </a>
+                                <button type="button" class="close" data-dismiss="modal"><img
+                                        src="./images/close.svg"></button>
+                            </div>
+
+
+                            <div class="modal-body">
+                                <ul class="navbar-mobile">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#About"
+                                            onclick="$('#myModal').modal('hide')">Über uns</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#Strategie"
+                                            onclick="$('#myModal').modal('hide')">Strategie</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#Kriterien"
+                                            onclick="$('#myModal').modal('hide')">Kriterien</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#Team" onclick="$('#myModal').modal('hide')">Team</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#Kontakt"
+                                            onclick="$('#myModal').modal('hide')">Kontakt</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                            <div class="modal-footer">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-container">
+                <h1 class="header-text">
+                    For current and future generations
+                </h1>
+            </div>
+    </header>
+    <section class="bg-light" id="About">
+        <div class="page-container">
+            <div class="title-container">
+                <p class="label-title">Über uns</p>
+                <h3 class="title">WEGA ist ein deutsches Single Family Office
+                    mit 20 jähriger Historie</h3>
+            </div>
+            <div class="content-block">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <p>WEGA ist das Family Office der Familie Wendeln, einer norddeutschen Familie deren
+                        unternehmerischen Wurzeln im industriellen Bäckerei-geschäft in Deutschland liegen und bis in
+                        das Jahr 1919 zurückreichen. Das Family Office wurde nach dem Verkauf des Familienunternehmens
+                        im Jahr 2000 gegründet. 
+                    </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <p>Investmentseitig verfolgt man seitdem einen globalen, über verschiedene Anlageklassen
+                        diversifizierten Investmentansatz, der sich am Modell der US-Universitätsstiftungen orientiert.
+                        Mit einem eigenen Investmentteam berät die WEGA aus dem Herzen Münchens heraus die Familienfonds
+                        bei der Asset Allocation und dem Risikomanagement. 
+                    </p>
+                </div>
+            </div>
+            <div class="mirror-media">
+                <div class="col left-i">
+                    <div class="item-indicator">
+                        <div class="item-descrp animate__animated animate__fadeInLeft">
+                            <p>Fairness und
+                                Verantwortungs-
+                                bewußtsein</p>
+                        </div>
+                        <div class="indicator animate__animated animate__bounceInRight">
+                            <div class="dot"></div>
+                            <div class="row-indicator"></div>
+                        </div>
+                    </div>
+                    <div class="item-indicator ">
+                        <div class="item-descrp animate__animated animate__fadeInLeft">
+                            <p>Streben
+                                nach höchster
+                                Qualität</p>
+                        </div>
+                        <div class="indicator animate__animated animate__bounceInRight">
+                            <div class="dot"></div>
+                            <div class="row-indicator"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="media-box ">
+                        <img class="icon-media" src="./images/SVG/logo_mirror.svg" alt="Wega invest logo">
+                    </div>
+                </div>
+                <div class="col right-i">
+                    <div class="item-indicator ">
+                        <div class="indicator animate__animated animate__bounceInLeft">
+                            <div class="row-indicator"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <div class="item-descrp ml-2 animate__animated animate__fadeInRight">
+                            <p>Geradliniges und
+                                konsequentes Verhalten
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="list-mobile">
+                <li class="item-indicator ">
+                    <div class="indicator animate__animated animate__bounceInLeft">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="item-descrp ml-2 animate__animated animate__fadeInRight">
+                        <p>Geradliniges und
+                            konsequentes Verhalten
+                        </p>
+                    </div>
+                </li>
+                <li class="item-indicator ">
+                    <div class="indicator animate__animated animate__bounceInLeft">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="item-descrp ml-2 animate__animated animate__fadeInRight">
+                        <p>Geradliniges und
+                            konsequentes Verhalten
+                        </p>
+                    </div>
+                </li>
+                <li class="item-indicator ">
+                    <div class="indicator animate__animated animate__bounceInLeft">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="item-descrp ml-2 animate__animated animate__fadeInRight">
+                        <p>Geradliniges und
+                            konsequentes Verhalten
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="bg-header--2" id="Kriterien" style="background-image:url('./images/background-wega-kriterien.jpg')" style="min-height: auto;"">
+        <div class="page-container">
+            <div class="title-container">
+                <p class="label-title">kriterien</p>
+                <h3 class="title">Fonds Investments</h3>
+            </div>
+            <div class="content-block--2">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="text-block--2">
+                        <h4>I</h4>
+                        <p>Nachvollziehbare, ertragsstarke <strong>Strategie ohne Teil Risiken</strong> 
+                        </p>
+                    </div>
+                    <div class="text-block--2">
+                        <h4>III</h4>
+                        <p>Interessengleichrichtung zwischen Manager und Investoren, eigentümergeführt 
+                        </p>
+                    </div>
+                    <div class="text-block--2">
+                        <h4>V</h4>
+                        <p>Einhaltung ethischer Grundsätze 
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="text-block--2">
+                        <h4>II</h4>
+                        <p>Konzentration des Managers auf seine Kernkompetenz 
+                        </p>
+                    </div>
+                    <div class="text-block--2">
+                        <h4>IV</h4>
+                        <p>Langfristiger, erfolgreiche Track Record mit bestehendem Team und vergleichbarer Struktur 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-lighter" id="Strategie">
+        <div class="page-container">
+            <div class="title-container">
+                <p class="label-title">Strategie</p>
+                <h3 class="title">Asset Allocation</h3>
+            </div>
+            <div class="content-block">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                    <p class="label-title">Strategie</p>
+                    <p>Unsere Asset Allocation ist bestimmt durch die Assetklassen Private Equity, Absolut Return und
+                        Aktien. Fixed Income und Real Estate sind weitere wichtige Portfoliobausteine. 
+                    </p>
+
+                    <div class="chart-media">
+                        <div class="col-2 col-sm-3">
+                            <div class="item-indicator">
+                                <div class="item-descrp animate__animated animate__fadeInLeft">
+                                    <h3>1</h3>
+                                    <p>Gold</p>
+                                </div>
+                                <div class="indicator animate__animated animate__bounceInRight">
+                                    <div class="dot"></div>
+                                    <div class="row-indicator"></div>
+                                </div>
+                            </div>
+                            <div class="item-indicator ">
+                                <div class="item-descrp animate__animated animate__fadeInLeft">
+                                    <h3>15</h3>
+                                    <p>Real<br> state</p>
+                                </div>
+                                <div class="indicator animate__animated animate__bounceInRight">
+                                    <div class="dot"></div>
+                                    <div class="row-indicator"></div>
+                                </div>
+                            </div>
+                            <div class="item-indicator ">
+                                <div class="item-descrp animate__animated animate__fadeInLeft">
+                                    <h3>15</h3>
+                                    <p>Fixed<br> income</p>
+                                </div>
+                                <div class="indicator animate__animated animate__bounceInRight">
+                                    <div class="dot"></div>
+                                    <div class="row-indicator"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6 m-auto">
+                            <div class="media-box ">
+                                <img class="icon-media" src="./images/chart-location.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-3">
+                            <div class="item-indicator ">
+                                <div class="indicator animate__animated animate__bounceInLeft">
+                                    <div class="row-indicator"></div>
+                                    <div class="dot"></div>
+                                </div>
+                                <div class="item-descrp ml-2 animate__animated animate__fadeInRight">
+                                    <h3>25</h3>
+                                    <p>Private <br>Equity</p>
+                                </div>
+                            </div>
+                            <div class="item-indicator ">
+                                <div class="indicator animate__animated animate__bounceInLeft">
+                                    <div class="row-indicator"></div>
+                                    <div class="dot"></div>
+                                </div>
+                                <div class="item-descrp ml-2 animate__animated animate__fadeInRight">
+                                    <h3>20</h3>
+                                    <p>Absolute <br>Return</p>
+                                </div>
+                            </div>
+                            <div class="item-indicator ">
+                                <div class="indicator animate__animated animate__bounceInLeft">
+                                    <div class="row-indicator"></div>
+                                    <div class="dot"></div>
+                                </div>
+                                <div class="item-descrp ml-2 animate__animated animate__fadeInRight">
+                                    <h3>20</h3>
+                                    <p>Aktien </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="chart-grey">
+                        <div class="top-row">
+                            <div class="item-descrp ml-2 animate__animated animate__fadeInRight">
+                                <h3>20</h3>
+                                <p>Aktien </p>
+                            </div>
+                            <div class="item-descrp ml-2 animate__animated animate__fadeInRight">
+                                <h3>20</h3>
+                                <p>Aktien </p>
+                            </div>
+                        </div>
+                        <div class="media-box ">
+                            <img class="icon-media" src="./images/SVG/Asset 7.svg" alt="">
+                        </div>
+                        <div class="bottom-row">
+                            <div class="item-descrp ml-2 animate__animated animate__fadeInRight">
+                                <h3>20</h3>
+                                <p>Aktien </p>
+                            </div>
+                            <div class="item-descrp ml-2 animate__animated animate__fadeInRight">
+                                <h3>20</h3>
+                                <p>Aktien </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-block">
+                        <div class="col-12">
+                            <p class="label-title">Regionen</p>
+                            <p>Chancen und Risiken bieten sich auf der ganzen Welt. Entsprechend investieren gleichmäßig
+                                über die drei dominierenden Wirtschaftsräume Europa, USA und Asien.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="title-container">
+                <h3 class="title">Langfristig aktiennahe Rendite bei deutlich reduziertem Risiko
+                </h3>
+            </div>
+            <div class="content-block">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <p>Wir legen das Familienvermögen effizient und verantwortungsbewusst an, d.h. wir suchen weltweit
+                        nach den besten Investmentmanagern in allen Anlageklassen. Unter Effizienz verstehen wir ein
+                        möglichst optimales Verhältnis zwischen Renditeerwartung und den damit verbundenen Risiken.
+                        
+                    </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <p>Wir erwarten von Managern die Einhaltung ethischer Grundsätze.
+                        Wir verfolgen einen langfristigen Ansatz und gehen illiquide Investments ein. Wir erwarten
+                        aktiennahe Renditen bei deutlich weniger Risiko als Aktienanlagen.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="list-raising-m">
+                    <li class="list-raising__item">
+                        <div class="dot-list__red"></div>
+                        <div class="list-raising__text">
+                            <p>Aktien global</p>
+                        </div>
+                    </li>
+                    <li class="list-raising__item">
+                        <div class="dot-list__yellow"></div>
+                        <div class="list-raising__text">
+                            <p>Renten global</p>
+                        </div>
+                    </li>
+                    <li class="list-raising__item">
+                        <div class="dot-list__grey"></div>
+                        <div class="list-raising__text">
+                            <p>Renten global</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="item-indicator-v  ">
+                    <div class="indicator animate__animated animate__fadeInDown">
+                        <div class="dot-v"></div>
+                        <div class="vertical-indicator"></div>
+                    </div>
+                    <div class="item-descrp-v ml-2 animate__animated animate__fadeInDown">
+                        <p>Underperformance in Phasen von Euphorie und Übertreibung</p>
+                    </div>
+                </div>
+                <div class="item-indicator-v  ">
+                    <div class="item-descrp-v ml-2 animate__animated animate__fadeInDown">
+                        <p>Positive Rendite in
+                            Seitwärtsphasen</p>
+                    </div>
+                    <div class="indicator animate__animated animate__fadeInDown">
+                        <div class="dot-v"></div>
+                        <div class="vertical-indicator"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="chart-raising">
+                <div class="bg-raising">
+                    <img class="img-bg" src="./images/chart-rais.svg" alt="chart raising">
+                    <img class="img-bg-mobile" src="./images/SVG/chart-rais-mobile.svg" alt="chart raising">
+                </div>
+            </div>
+            <div class="item-indicator-v2">
+                <div class="indicator animate__animated animate__fadeInDown">
+                    <div class="vertical-indicator"></div>
+                    <div class="dot-v"></div>
+                </div>
+                <div class="item-descrp-v ml-2 animate__animated animate__fadeInDown" style="margin-top: 71px;">
+                    <p>Vermögensschutz in
+                        Verlustphasen</p>
+                </div>
+            </div>
+            <ul class="list-raising-d">
+                <li class="list-raising__item">
+                    <div class="dot-list__red"></div>
+                    <div class="list-raising__text">
+                        <p>Aktien global</p>
+                    </div>
+                </li>
+                <li class="list-raising__item">
+                    <div class="dot-list__yellow"></div>
+                    <div class="list-raising__text">
+                        <p>Renten global</p>
+                    </div>
+                </li>
+                <li class="list-raising__item">
+                    <div class="dot-list__grey"></div>
+                    <div class="list-raising__text">
+                        <p>Renten global</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="list-number">
+                <li class="list-number__item">
+                    <div class="dot-number">
+                        <p>1</p>
+                    </div>
+                    <div class="list-number__text">
+                        <p>Aktien global</p>
+                    </div>
+                </li>
+                <li class="list-number__item">
+                    <div class="dot-number">
+                        <p>2</p>
+                    </div>
+                    <div class="list-number__text">
+                        <p>Renten global</p>
+                    </div>
+                </li>
+                <li class="list-number__item">
+                    <div class="dot-number">
+                        <p>3</p>
+                    </div>
+                    <div class="list-number__text">
+                        <p>Renten global</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="bg-section" id="Team" style="background-image:url('./images/background-team.jpg')">
+        <div class="page-container">
+            <div class="content-bottom mb-5">
+                <div class="title-container--light">
+                    <p class="label-title">Team</p>
+                    <h3 class="title">München</h3>
+                </div>
+
+                <div class="content-block--3">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <p>WEGA ist das Family Office der Familie Wendeln, einer norddeutschen Familie deren
+                            unternehmerischen Wurzeln im industriellen Bäckerei-geschäft in Deutschland liegen und bis
+                            in
+                            das Jahr 1919 zurückreichen. Das Family Office wurde nach dem Verkauf des
+                            Familienunternehmens
+                            im Jahr 2000 gegründet. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Team2">
+        <div class="team-bg" style="background-image:url('./images/background-team.jpg')">
+        </div>
+        <div class="bg-lighter">
+            <div class="page-container" style="min-height: auto;">
+                <div class="title-container">
+                    <p class="label-title">Team</p>
+                    <h3 class="title">München</h3>
+                </div>
+
+                <div class="content-block--3 text--darkest">
+                    <div class="col-12">
+                        <p>WEGA ist das Family Office der Familie Wendeln, einer norddeutschen Familie deren
+                            unternehmerischen Wurzeln im industriellen Bäckerei-geschäft in Deutschland liegen und
+                            bis
+                            in
+                            das Jahr 1919 zurückreichen. Das Family Office wurde nach dem Verkauf des
+                            Familienunternehmens
+                            im Jahr 2000 gegründet. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-darkest">
+        <div class="page-container" style="min-height: auto;">
+            <div class="title-container--light">
+                <h3 class="title">Management</h3>
+            </div>
+            <div class="list-team">
+                <div class="container-team">
+                    <img class="avatar" src="./images/prof-avatar-1.jpg">
+                    <div class="avatar-info">
+                        <h6>Bernd Wendeln</h6>
+                        <p>
+                            Beiratsvorsitzender</p>
+                    </div>
+                </div>
+                <div class="container-team">
+                    <img class="avatar" src="./images/profile-avatar-2.jpg">
+                    <div class="avatar-info">
+                        <h6>Alexander Wendeln</h6>
+                        <p>
+                            Beirat</p>
+                    </div>
+                </div>
+                <div class="container-team">
+                    <img class="avatar" src="./images/profile-avatar-3.jpg">
+                    <div class="avatar-info">
+                        <h6>Matthias Kray</h6>
+                        <p>
+                            Geschäftsführer | CIO</p>
+                    </div>
+                </div>
+                <div class="container-team">
+                    <img class="avatar" src="./images/profile-avatar-4.jpg">
+                    <div class="avatar-info">
+                        <h6>Dr. Bodo Coldewey</h6>
+                        <p>
+                            Geschäftsführer | CEO</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="bg-darkest">
+        <div class="page-container" style="min-height: auto;">
+            <div class="title-container--light">
+                <h3 class="title">Kontakt</h3>
+                <div class="row mt-5">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="contact-info">
+                            <h6>WEGA Invest GmbH
+                            </h6>
+                            <p>Sporerstraße 3<br>
+                                80333 München
+                                </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <form>
+                            <div class="form-group ">
+                                <textarea class="form-control form-contact" id="exampleFormControlTextarea1" rows="3" placeholder="Ihre Anfrage"></textarea>
+                              </div>
+                              <button type="button" class="btn btn-lightest">Senden</button>
+                        </form>
+                    </div>   
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="team-bg " style="background-image:url('./images/bg-footer.jpg');background-size: cover;">
+        </div>
+        <footer class="bg-darkest">
+            <div class="page-container  mt-0" style="min-height: auto;">
+                <div class="footer-container">
+                    <div class="footer-copyrights mt-2">
+                        <p>© 2020 WEGA Invest GmbH</p>
+                        <img class="footer-img"src="./images/Logo_lighter.svg">
+
+                    </div>
+                    <div class="footer-links mt-2">
+                        <div class="vr"></div>
+                        <ul class="link-list">
+                            <li class="list-item">
+                                <a class="link-footer"href="#">Contac</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link-footer"href="#">Imprint</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link-footer"href="#">Privacy Policy</a>
+                            </li>
+                            <li class="list-item mt-3">
+                                <a class="link-footer"href="#">WENVEST Capital</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav mt-2">
+                        <div class="vr"></div>
+                        <ul class="link-list">
+                            <li class="list-item">
+                                <a class="link-footer"href="#About">Über uns
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link-footer"href="#Kriterien">Kriterien
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link-footer"href="#Strategie">Strategie</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link-footer"href="#Team">Team</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="link-footer"href="#Kontakt">Kontakt</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="footer-actions mt-2">
+                        <button type="button" class="btn btn-lightest">LOGIN</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

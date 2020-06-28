@@ -1,0 +1,171 @@
+.navigation{
+    margin-top: -100px;
+    .navbar-wega{
+        display: block;
+        position: relative;
+        font-family:'Panton-Regular';
+        background-color: transparent;
+        @media screen and (max-width:575.98px){
+            display: none;
+        }
+        @media screen and (min-width:576px)and(max-width:768px){
+            display: none;
+        }
+        
+        .company-logo{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            .nav-item-cia{
+                .nav-link {
+                    display: block;
+                    padding: 10px 20px;
+                    color: white;
+                    text-decoration: none;
+                    background-color: transparent;
+                    text-transform: uppercase;
+                    font-weight: 900;}
+            }
+            
+            .icon-nav{
+    
+                display: block;
+                width: 75px;
+            }
+        }
+    
+        .nav{
+            .nav-item{
+                .nav-link {
+                    display: block;
+                    padding: 10px 20px;
+                    color: white;
+                    text-decoration: none;
+                    background-color: transparent;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    &.disabled{
+                        color:#6c757d;
+                        pointer-events: none;
+                        cursor: default;
+                    }
+                    &.en{
+                        margin-left: -33px;
+                    }
+                }
+                
+            }
+            
+        }
+        
+    }
+    .nav-mobile {
+        display: none;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color:transparent;
+        @media screen and (max-width:575.98px){
+            display: flex;
+        }
+        @media screen and (min-width:576px)and(max-width:768px){
+            display: flex;
+        }
+        .menu-mobile{
+            background-color: transparent;
+            width: 60px;
+            border: transparent;
+        }
+        .mobile-company{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            .mobile-icon{
+                width: 100px;
+            }
+            .text-icon{
+                color: white;
+                text-transform: uppercase;
+                margin-bottom: 0px;
+            }
+            
+        }
+    }
+}
+.modal{
+    .modal-dialog{
+        position: relative;
+        width: 100%;
+        margin:0px; 
+        pointer-events: none;
+        @media screen and(min-width:576px) {
+            width: 100%;
+        }
+        .modal-content{
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            width: 100%;
+            pointer-events: auto;
+            background-color: #22201F;
+            background-clip: padding-box;
+            border-radius: 0rem;
+            outline: 0;
+            .modal-header{
+                border-bottom: transparent;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                .mobile-company{
+                    .mobile-icon{
+                        width: 100px;
+                    }
+                    .text-icon{
+                        color: white;
+                        text-transform: uppercase;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+            .modal-body{
+                .navbar-mobile{
+                    padding-left: 9px;
+                    .nav-item{
+                        .nav-link{
+                            display: block;
+                            padding-top: 20px;
+                            padding-bottom: 20px;
+                            padding-left: 5px;
+                            padding-right: 5px;
+                            color: white;
+                            text-decoration: none;
+                            background-color: transparent;
+                            text-transform: uppercase;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+            .modal-footer{
+                border-top: transparent;
+                border-bottom-right-radius: 0px;
+                border-bottom-left-radius: 0px;
+            }
+        }
+    }
+}
+
+.modal-top{
+    top:0;
+}
+.modal--full-height{
+    position: absolute;
+    top: 0;
+    display: flex;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
