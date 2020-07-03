@@ -192,7 +192,7 @@ body {
     font-size: 16px;
     color: #685D5B; }
   .title-container .title {
-    font-family: 'Panton-Bold';
+    font-family: 'Panton-Regular';
     text-transform: inherit;
     font-size: 31px;
     color: #685D5B; }
@@ -258,7 +258,7 @@ body {
       flex-wrap: wrap;
       margin-left: 0px;
       margin-top: 0px;
-      font-size: 10px;
+      font-size: 12px;
       margin-bottom: 20px; } }
   @media screen and (min-width: 576px) and (max-width: 768px) {
     .content-block--2 {
@@ -570,7 +570,7 @@ body {
   width: 50%;
   text-align: left;
   padding-left: 15px;
-  margin-top: 15%;
+  margin-top: 25%;
   margin-bottom: 5%; }
   @media screen and (max-width: 575.98px) {
     .text-container {
@@ -591,17 +591,17 @@ body {
     font-family: 'Panton-Light';
     text-transform: uppercase;
     font-size: 70px;
-    line-height: 103px;
+    line-height: 75px;
     letter-spacing: 8px; }
     @media screen and (max-width: 575.98px) {
       .text-container .header-text {
         font-size: 42px;
         letter-spacing: 3px;
-        line-height: 61px; } }
+        line-height: 40px; } }
     @media screen and (min-width: 576px) and (max-width: 768px) {
       .text-container .header-text {
         letter-spacing: 5px;
-        line-height: 80px; } }
+        line-height: 60px; } }
 
 .chart-raising {
   display: block;

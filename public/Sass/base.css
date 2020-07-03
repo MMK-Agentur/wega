@@ -192,7 +192,7 @@ body {
     font-size: 16px;
     color: #685D5B; }
   .title-container .title {
-    font-family: 'Panton-Bold';
+    font-family: 'Panton-Regular';
     text-transform: inherit;
     font-size: 31px;
     color: #685D5B; }
@@ -258,7 +258,7 @@ body {
       flex-wrap: wrap;
       margin-left: 0px;
       margin-top: 0px;
-      font-size: 10px;
+      font-size: 12px;
       margin-bottom: 20px; } }
   @media screen and (min-width: 576px) and (max-width: 768px) {
     .content-block--2 {
